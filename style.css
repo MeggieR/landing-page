@@ -1,0 +1,71 @@
+
+#container{
+    height: 700px;
+    width: 1060px;
+ margin-left: 100px;
+    font-family: sans-serif;
+}
+/* Header */
+
+.Header {
+    display: flex;
+    height: 70px;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+.header-img{
+    width: 15%;
+}
+.header-nav{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.header-buttons{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#btn1{
+    height: 30px;
+    width: 70px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid #000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#btn2{
+    height: 30px;
+    width: 70px;
+    border-radius: 8px;
+    background-color: #000;
+    color: white;
+    border: 2px solid #000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+/* Content */
+.content-section{
+    display: flex;
+    height: auto;
+}
+
+.content-img{
+    background-image: url('images/LandingPage\ illustration.png');
+    background-size: cover;
+    height: 500px;
+    width: 650px;
+    margin-right: -150px;
+}
+#content-btn{
+    margin-top: 50px;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    border: 2px solid #f1f1f1;
+    box-shadow: 2px 2px #c4c4c4;
+   background: linear-gradient(to right, hsl(292, 71%, 49%, 0.6) 0, hsl(176, 99%, 40%, 0.6) 50%, hsl(58, 63%, 53%,0.6) 100%);
+}
